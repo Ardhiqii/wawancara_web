@@ -7,7 +7,7 @@ body {
   height: 100vh;
   width: 100vw;
   display: flex;
-  background: url("./assests/bg.jpg");
+  background: url("https://raw.githubusercontent.com/Ardhiqii/wawancara_web/main/assests/bg.jpg");
   background-size: 100vw 100vh;
 }
 #main {

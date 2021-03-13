@@ -29,7 +29,8 @@ const nama = ["jeremy", "zaky", "nabiel", "akbar"];
 class Cakru extends React.Component {
   state = {
     title: "Christoper Ivan G",
-    src: "./assests/imgWawan/wawan-kak-ivan2.png",
+    src:
+      "https://ardhiqii.github.io/wawancara_web/assests/imgWawan/wawan-kak-ivan2.png",
     orang: "",
     fakultas: "",
     hobby: "",
@@ -38,14 +39,16 @@ class Cakru extends React.Component {
   handleWawanKru = () => {
     this.setState({
       title: "Christoper Ivan G",
-      src: "./assests/imgWawan/wawan-kak-ivan2.png"
+      src:
+        "https://ardhiqii.github.io/wawancara_web/assests/imgWawan/wawan-kak-ivan2.png"
     });
   };
 
   handleWawanCakru = () => {
     this.setState({
       title: "Jeremy Evan",
-      src: "./assests/imgWawan/wawan-ca-kru2.png",
+      src:
+        "https://raw.githubusercontent.com/Ardhiqii/wawancara_web/main/assests/imgWawan/wawan-ca-kru2.png",
       orang: "jeremy"
     });
   };
@@ -84,7 +87,10 @@ class Cakru extends React.Component {
                   <a href="#">CONTACT</a>
                 </ul>
                 <div class="profile">
-                  <img src="./assests/user.png" alt="profile" />
+                  <img
+                    src="https://raw.githubusercontent.com/Ardhiqii/wawancara_web/main/assests/user.png"
+                    alt="profile"
+                  />
                 </div>
               </div>
             </div>
