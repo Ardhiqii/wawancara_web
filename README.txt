@@ -16,4 +16,4 @@ file gadget_borrow_history bagian is_returned berubah ke TRUE
 
 6. pada f10, ketika sudah ngambil, jumlah akan berkurang di data file consumable 
 
-	
+	zz
